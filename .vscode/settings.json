@@ -1,0 +1,24 @@
+{
+  "sqltools.connections": [
+    {
+      "previewLimit": 50,
+      "server": "postgres.magsapi.com",
+      "port": 5432,
+      "driver": "PostgreSQL",
+      "name": "MercPost",
+      "database": "h1",
+      "username": "postgresMerc",
+      "password": "mags"
+    },
+    {
+      "pgOptions": {
+        "ssl": true
+      },
+      "previewLimit": 50,
+      "server": "localhost",
+      "driver": "PostgreSQL",
+      "name": "ExNeon.tech",
+      "connectString": "postgresql://Mercantec-MAGS:LyBw7uPTanS6@ep-shrill-king-02053617.eu-central-1.aws.neon.tech/Mercantec?sslmode=require"
+    }
+  ]
+}
